@@ -84,7 +84,7 @@ class CoupSession
 			_id: random_id,
 			start_timestamp: Date.now(),
 			treasury: 50,
-			num_players: 4,	//TODO read from setup params
+			num_players: 2,	//TODO read from setup params (JUSTIN NOTE: edited this to test 2 player games for now)
 			players: [],
 			court_deck: [],
 			revealed_cards: [],
